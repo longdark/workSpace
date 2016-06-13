@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4684074EC2581042D31FC305 /* libPods-MyLimitFree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE8C5274A27470598B95E69 /* libPods-MyLimitFree.a */; };
+		BCAD4CD71D0E529E0045D8A3 /* AppListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4CD61D0E529E0045D8A3 /* AppListModel.m */; };
+		BCAD4CDB1D0E59E20045D8A3 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4CD91D0E59E20045D8A3 /* MyTableViewCell.m */; };
+		BCAD4CDC1D0E59E20045D8A3 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCAD4CDA1D0E59E20045D8A3 /* MyTableViewCell.xib */; };
+		BCAD4CDF1D0E87810045D8A3 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4CDE1D0E87810045D8A3 /* StartView.m */; };
+		BCAD4CE21D0EA1CC0045D8A3 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4CE11D0EA1CC0045D8A3 /* CategoryModel.m */; };
 		BCC54EEF1D0CFA760061C8C5 /* FZKT_GBK.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC54E431D0CFA760061C8C5 /* FZKT_GBK.ttf */; };
 		BCC54EF01D0CFA760061C8C5 /* hanyizhuanshu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC54E441D0CFA760061C8C5 /* hanyizhuanshu.ttf */; };
 		BCC54EF11D0CFA760061C8C5 /* account_candou.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC54E471D0CFA760061C8C5 /* account_candou.png */; };
@@ -203,6 +208,16 @@
 /* Begin PBXFileReference section */
 		3BE8C5274A27470598B95E69 /* libPods-MyLimitFree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyLimitFree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5051E7D0D00B32F667839AD7 /* Pods-MyLimitFree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLimitFree.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLimitFree/Pods-MyLimitFree.release.xcconfig"; sourceTree = "<group>"; };
+		BCAD4CD41D0E43180045D8A3 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		BCAD4CD51D0E529E0045D8A3 /* AppListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppListModel.h; sourceTree = "<group>"; };
+		BCAD4CD61D0E529E0045D8A3 /* AppListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppListModel.m; sourceTree = "<group>"; };
+		BCAD4CD81D0E59E20045D8A3 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		BCAD4CD91D0E59E20045D8A3 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		BCAD4CDA1D0E59E20045D8A3 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		BCAD4CDD1D0E87810045D8A3 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartView.h; sourceTree = "<group>"; };
+		BCAD4CDE1D0E87810045D8A3 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartView.m; sourceTree = "<group>"; };
+		BCAD4CE01D0EA1CC0045D8A3 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		BCAD4CE11D0EA1CC0045D8A3 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
 		BCC54E431D0CFA760061C8C5 /* FZKT_GBK.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZKT_GBK.ttf; sourceTree = "<group>"; };
 		BCC54E441D0CFA760061C8C5 /* hanyizhuanshu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hanyizhuanshu.ttf; sourceTree = "<group>"; };
 		BCC54E471D0CFA760061C8C5 /* account_candou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_candou.png; sourceTree = "<group>"; };
@@ -717,6 +732,10 @@
 		BCC54F901D0D058C0061C8C5 /* Model － 模型 */ = {
 			isa = PBXGroup;
 			children = (
+				BCAD4CD51D0E529E0045D8A3 /* AppListModel.h */,
+				BCAD4CD61D0E529E0045D8A3 /* AppListModel.m */,
+				BCAD4CE01D0EA1CC0045D8A3 /* CategoryModel.h */,
+				BCAD4CE11D0EA1CC0045D8A3 /* CategoryModel.m */,
 			);
 			name = "Model － 模型";
 			sourceTree = "<group>";
@@ -784,6 +803,11 @@
 		BCC54F971D0D05F90061C8C5 /* View － 视图 */ = {
 			isa = PBXGroup;
 			children = (
+				BCAD4CD81D0E59E20045D8A3 /* MyTableViewCell.h */,
+				BCAD4CD91D0E59E20045D8A3 /* MyTableViewCell.m */,
+				BCAD4CDA1D0E59E20045D8A3 /* MyTableViewCell.xib */,
+				BCAD4CDD1D0E87810045D8A3 /* StartView.h */,
+				BCAD4CDE1D0E87810045D8A3 /* StartView.m */,
 			);
 			name = "View － 视图";
 			sourceTree = "<group>";
@@ -806,6 +830,7 @@
 		BCC54FB61D0D3CBB0061C8C5 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				BCAD4CD41D0E43180045D8A3 /* Define.h */,
 				BCC54FB71D0D3D520061C8C5 /* UIColor+myColor.h */,
 				BCC54FB81D0D3D520061C8C5 /* UIColor+myColor.m */,
 				BCC54FBA1D0D40850061C8C5 /* PrefixHeader.pch */,
@@ -1141,6 +1166,7 @@
 				BCC54F141D0CFA760061C8C5 /* buttonbar_back@2x.png in Resources */,
 				BCC54F471D0CFA760061C8C5 /* composedingwei@2x.png in Resources */,
 				BCC54EF41D0CFA760061C8C5 /* account_collect@2x.png in Resources */,
+				BCAD4CDC1D0E59E20045D8A3 /* MyTableViewCell.xib in Resources */,
 				BCC54EF91D0CFA760061C8C5 /* account_favorite.png in Resources */,
 				BCC54F241D0CFA760061C8C5 /* category_Life.jpg in Resources */,
 				BCC54F651D0CFA760061C8C5 /* tabbar_subject.png in Resources */,
@@ -1215,12 +1241,16 @@
 				BCC54FA11D0D07C30061C8C5 /* HostViewController.m in Sources */,
 				BCC54FA41D0D07F20061C8C5 /* SubjectViewController.m in Sources */,
 				BCC54FC11D0D54380061C8C5 /* CategoryViewController.m in Sources */,
+				BCAD4CE21D0EA1CC0045D8A3 /* CategoryModel.m in Sources */,
 				BCE3251D1D0CF70200CA2E4A /* ViewController.m in Sources */,
 				BCC54F9B1D0D06660061C8C5 /* BasicViewController.m in Sources */,
+				BCAD4CD71D0E529E0045D8A3 /* AppListModel.m in Sources */,
+				BCAD4CDB1D0E59E20045D8A3 /* MyTableViewCell.m in Sources */,
 				BCE3251A1D0CF70200CA2E4A /* AppDelegate.m in Sources */,
 				BCE325171D0CF70200CA2E4A /* main.m in Sources */,
 				BCC54F9E1D0D07970061C8C5 /* AppListViewController.m in Sources */,
 				BCC54FAD1D0D08710061C8C5 /* LimitFreeViewController.m in Sources */,
+				BCAD4CDF1D0E87810045D8A3 /* StartView.m in Sources */,
 				BCC54FB91D0D3D520061C8C5 /* UIColor+myColor.m in Sources */,
 				BCC54FB51D0D12340061C8C5 /* CustomNavigationController.m in Sources */,
 				BCC54FAA1D0D083C0061C8C5 /* ReductionViewController.m in Sources */,

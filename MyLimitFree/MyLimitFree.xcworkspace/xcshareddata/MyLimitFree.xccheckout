@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>542F3A99-F910-4693-9B1F-EBA4691FA540</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyLimitFree</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E83777EBB11FD353336EF8EC24F214C7AA145159</key>
+		<string>https://github.com/longdark/workSpace.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyLimitFree/MyLimitFree.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E83777EBB11FD353336EF8EC24F214C7AA145159</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/longdark/workSpace.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E83777EBB11FD353336EF8EC24F214C7AA145159</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E83777EBB11FD353336EF8EC24F214C7AA145159</string>
+			<key>IDESourceControlWCCName</key>
+			<string>workSpace</string>
+		</dict>
+	</array>
+</dict>
+</plist>

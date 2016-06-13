@@ -12,5 +12,7 @@
 #import "UIColor+myColor.h"
 #import <Masonry.h>
 #import <MJRefresh.h>
-
+#import "Define.h"
+#import <AFNetworking.h>
+#import "CategoryModel.h"
 #endif

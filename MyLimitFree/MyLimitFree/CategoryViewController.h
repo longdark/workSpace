@@ -10,4 +10,6 @@
 
 @interface CategoryViewController : BasicViewController
 
+@property (nonatomic, copy) void (^sandValue)(NSString *cateId);
+
 @end

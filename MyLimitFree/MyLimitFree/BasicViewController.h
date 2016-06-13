@@ -15,4 +15,8 @@
 - (void) creatUI;
 
 - (void) backLastView;
+
+@property (nonatomic, strong) NSString *requestUrl;
+
+@property (nonatomic, strong) AFHTTPSessionManager *requestManager;
 @end

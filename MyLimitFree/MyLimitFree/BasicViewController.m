@@ -10,6 +10,8 @@
 
 @interface BasicViewController ()
 
+
+
 @end
 
 @implementation BasicViewController
@@ -17,6 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+}
+#pragma mark - 懒加载实例化manager
+- (AFHTTPSessionManager *)requestManager{
+
+    if (_requestManager == nil) {
+        _requestManager = [AFHTTPSessionManager manager];
+        
+        _requestManager.responseSerializer = [AFJSONResponseSerializer serializer];
+        // 在序列化器中追加一个类型，text/html这个类型是不支持的，text/json, application/json
+        _requestManager.responseSerializer.acceptableContentTypes = [_requestManager.responseSerializer.acceptableContentTypes setByAddingObject:@"text/html"];
+    }
+    
+
+    
+    return _requestManager;
 }
 
 #pragma mark - 返回上一层

@@ -22,17 +22,20 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.0.1)
   - MJRefresh (3.1.0)
+  - YYModel (0.9.12)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.4)
   - Masonry
   - MJRefresh
+  - YYModel (~> 0.9.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  YYModel: 33a27f41a995f4c36ff8178421bac9f221a9c7ea
 
-PODFILE CHECKSUM: fb7e4df11d77b5089d5335c778da76a890c00152
+PODFILE CHECKSUM: cae4eea30b2e5d3f79ef5be021c3064438c89282
 
 COCOAPODS: 1.0.1
